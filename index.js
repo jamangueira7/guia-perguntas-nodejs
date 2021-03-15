@@ -55,5 +55,14 @@ app.post('/salvarpergunta', (req, res) => {
     });
 });
 
+app.post('/responder', (req, res) => {
+    const { corpo, perguntaId } = req.body;
+    Resposta.create({
+        corpo,
+        perguntaId
+    }).then(() => {
+        res.redirect(`/pergunta/${perguntaId}`);
+    });
+});
 
 app.listen(3000, () => { console.log('App rodando!')});
