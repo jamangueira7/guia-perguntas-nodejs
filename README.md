@@ -1,12 +1,8 @@
 <p align="center">
-  <img alt="animation" src=".github/imagem1.PNG" width="100%">
-</p>
-
-<p align="center">
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
   <a href="#-como-rodar">Como rodar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;
- </p>
+</p>
 
 <br>
 
